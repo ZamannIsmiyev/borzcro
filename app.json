@@ -1,0 +1,22 @@
+
+{
+  "name": "@XTDSozOyunuBot",
+  "description": "Soz Oyunu",
+  "keywords": [
+    "telegram",
+    "best",
+    "group",
+    "manager",
+    "3"
+  ],
+  "repository": "https://github.com/iamnikott/crocodile",
+  
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "10"
+      }
+    }
+  ]
+}
