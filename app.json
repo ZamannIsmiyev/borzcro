@@ -1,6 +1,6 @@
 
 {
-  "name": "@XTDSozOyunuBot",
+  "name": "@PremiumCrocodileBot",
   "description": "Soz Oyunu",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/iamnikott/crocodile",
+  "repository": "https://github.com/mraliyev777/borzcro",
   
   "addons": [
     {
