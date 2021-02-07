@@ -66,15 +66,15 @@ def button(update, context):
 def command_start(update, context: CallbackContext):
     if update.effective_chat.type == "private":
         
-        addme = InlineKeyboardButton(text="🤖 Botu qrupuna əlavə et", url="https://t.me/xtdsozoyunubot?startgroup=a")
-        oyun = InlineKeyboardButton(text="🐊 Əsas Oyun Qrupumuz", url="https://t.me/xtdsozoyunu")
-        sohbet = InlineKeyboardButton(text="🌐 Söhbət Qrupumuz", url="https://t.me/xtdailesi")
-        resmi = InlineKeyboardButton(text="💻 Rəsmi Kanalımız", url="https://t.me/xtdbotfather")
-        admin = InlineKeyboardButton(text="👨‍💻 Sahibim", url="https://t.me/najafov_official")
+        addme = InlineKeyboardButton(text="🤖 Botu qrupuna əlavə et", url="https://t.me/premiumcrocodilebot?startgroup=a")
+        oyun = InlineKeyboardButton(text="🐊 Əsas Oyun Qrupumuz", url="https://t.me/theborzsohbet")
+        sohbet = InlineKeyboardButton(text="🌐 Söhbət Qrupumuz", url="https://t.me/theborzsohbet")
+        resmi = InlineKeyboardButton(text="💻 Rəsmi Kanalımız", url="https://t.me/bbotsaz")
+        admin = InlineKeyboardButton(text="👨‍💻 Sahibim", url="https://t.me/mr_aliyev7")
         
         keyboard = [[addme],[sohbet],[oyun],[resmi],[admin]]
         reply_markup = InlineKeyboardMarkup(keyboard)
-        update.message.reply_text('🌐 Salam Mən XTD Söz oyununun aparıcısıyam, Qrupa əlavə edib oyun oynaya bilərsiniz:)', reply_to_message_id=True, reply_markup=reply_markup)
+        update.message.reply_text('🌐 Salam Mən Premium Crocodile  oyununun aparıcısıyam, Qrupa əlavə edib oyun oynaya bilərsiniz:)', reply_to_message_id=True, reply_markup=reply_markup)
     else:
         chat_id = update.message.chat.id
         user_id = update.message.from_user.id
